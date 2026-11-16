@@ -23,10 +23,10 @@ jobs:
         run: |
           ZIP_FILE="UMESH_PRAKASH_SINGH_DIGITAL_AI_DIRECTOR_FINAL_TECHNICAL_AUDITED.zip"
 
-          if [ ! -f "$ZIP_FILE" ]; then
-            echo "ZIP file not found!"
-            exit 1
-          fi
+            if [ ! -f "$ZIP_FILE" ]; then
+            echo "ZIP already extracted or not uploaded. Skipping."
+            exit 0
+            fi
 
           mkdir extracted
           unzip -q "$ZIP_FILE" -d extracted
