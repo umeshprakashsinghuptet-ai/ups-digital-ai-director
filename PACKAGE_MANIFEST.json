@@ -31,8 +31,8 @@
     },
     {
       "path": "config/master_audited.json",
-      "size_bytes": 351812,
-      "sha256": "5ae248518f7b5788dfeff8dc18cd1770bc87a9713b0de1c0ce2802fe626cc503"
+      "size_bytes": 370974,
+      "sha256": "583a26b8af94ada6300f453e9fac67564edfac1bcc2c5639bc40f619716a3843"
     },
     {
       "path": "docs/README_HI.md",
