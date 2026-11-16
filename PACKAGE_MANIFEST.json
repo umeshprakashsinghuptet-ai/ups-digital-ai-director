@@ -1,0 +1,120 @@
+{
+  "package": "UMESH PRAKASH SINGH DIGITAL AI DIRECTOR — FINAL TECHNICALLY AUDITED FUNCTIONAL STARTER",
+  "build_date": "2026-11-16",
+  "release_state": "STATIC_PACKAGE_QA_PASS_END_TO_END_RELEASE_NOT_CERTIFIED",
+  "source_master": "config/master_audited.json",
+  "source_master_sha256": "1ae525cc7cf4fc842d33dc1f44b1dddd24dee92d0762cb995b61ab6bd67e974a",
+  "master_inventory": {
+    "engines": 50,
+    "locks": 15,
+    "brand_profiles": 4
+  },
+  "automated_tests": [
+    {
+      "name": "JavaScript syntax: app/core.js",
+      "result": "PASS"
+    },
+    {
+      "name": "JavaScript syntax: app/app.js",
+      "result": "PASS"
+    },
+    {
+      "name": "Prompt counter Unicode test vectors",
+      "result": "PASS 6/6"
+    },
+    {
+      "name": "Core validation and boundary tests",
+      "result": "PASS"
+    },
+    {
+      "name": "HTML/JS direct selector ID audit",
+      "result": "PASS"
+    },
+    {
+      "name": "Secret pattern scan",
+      "result": "PASS; no matching secret values found"
+    }
+  ],
+  "not_tested": [
+    "Live Android Chrome and desktop browser acceptance",
+    "Supabase SQL execution and two-user RLS test",
+    "Gemini/provider API",
+    "Image/video/VFX/BFX rendering",
+    "Audio and lip-sync",
+    "Publishing integrations",
+    "Binary asset upload and storage",
+    "In-app ZIP export"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 998,
+      "sha256": "99474d70f814af5b85d026f20e7735c52241fb87eb613a4887f1d97e2951c376"
+    },
+    {
+      "path": "app/app.js",
+      "size_bytes": 14432,
+      "sha256": "0b4554d8fa20d2560e7b617629fb4fc621ff3b1f560c499d6035a664bbcbe88d"
+    },
+    {
+      "path": "app/core.js",
+      "size_bytes": 3570,
+      "sha256": "aac93d93b7a4bbde9df370ae5e9a68a2dd15b0d2abb0a0fbfa3619290221883a"
+    },
+    {
+      "path": "app/index.html",
+      "size_bytes": 9575,
+      "sha256": "a25794dd2cc5713148d73a2580ad19e46466a7670cc9702b2de96441fe881812"
+    },
+    {
+      "path": "app/styles.css",
+      "size_bytes": 5997,
+      "sha256": "a476d29f6cf545a302844f774afec92fad8def671aa4eeb93f2ab11c80ff7f10"
+    },
+    {
+      "path": "config/master_audited.json",
+      "size_bytes": 349640,
+      "sha256": "1ae525cc7cf4fc842d33dc1f44b1dddd24dee92d0762cb995b61ab6bd67e974a"
+    },
+    {
+      "path": "docs/README_HI.md",
+      "size_bytes": 4905,
+      "sha256": "74273f9c2e080804a1ef217539c2351976ca81c84b680701c91cacbce7e5bbab"
+    },
+    {
+      "path": "docs/RELEASE_GAPS.md",
+      "size_bytes": 1765,
+      "sha256": "cc5634a355e8330fd778419ba0ba244d37287fda70c0832ca45eb82d16801043"
+    },
+    {
+      "path": "docs/TECHNICAL_AUDIT_FINAL.md",
+      "size_bytes": 2980,
+      "sha256": "6231a8e132d9f592e4e19ca1face68c7354ac063fd9d53e797521c1e0b961d8e"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 321,
+      "sha256": "bcd584820c1ba1eabd5dc6939ebd8a938e2332d0171fa2103e3f6ab6c0800078"
+    },
+    {
+      "path": "sql/001_initial_schema.sql",
+      "size_bytes": 5352,
+      "sha256": "d2e1ec22f428f4b3c2c3eef01a9e86e4ef6184f36690713636eec113fc5be9ae"
+    },
+    {
+      "path": "tests/TEST_REPORT.md",
+      "size_bytes": 2032,
+      "sha256": "8025bef4a2684018aafe3fa16f39c1391816ce9c044d3e5cdf7b6c4456d24535"
+    },
+    {
+      "path": "tests/core_test.js",
+      "size_bytes": 1223,
+      "sha256": "f7fc185b6c0c4c8e611d867a1f479dd839508dd019a059bb9b9fce7d695ab785"
+    },
+    {
+      "path": "tests/prompt_counter_test.js",
+      "size_bytes": 545,
+      "sha256": "9f7e84ef2a06d2dae061a9f6298f2cfd40cdfe667a714903ad007d888ee62147"
+    }
+  ]
+}

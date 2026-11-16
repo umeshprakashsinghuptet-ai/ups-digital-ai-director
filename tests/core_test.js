@@ -1,0 +1,19 @@
+// Run from package root: node tests/core_test.js
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const context={console,Math,Date};context.globalThis=context;vm.createContext(context);
+vm.runInContext(fs.readFileSync('app/core.js','utf8'),context);
+const C=context.UPSDCore;
+assert.equal(C.countCodePoints('A😀B'),3);
+assert.equal(C.countCodePoints('e\u0301'),1);
+assert.equal(C.countCodePoints('a\r\nb'),3);
+assert.equal(C.promptLimit('x'.repeat(900),'video').valid,true);
+assert.equal(C.promptLimit('x'.repeat(901),'video').valid,false);
+assert.equal(C.promptLimit('x'.repeat(901),'image').valid,true);
+const master=JSON.parse(fs.readFileSync('config/master_audited.json','utf8'));
+assert.equal(C.validateMaster(master),true);
+assert.equal(master.engines.length,50);
+assert.equal(master.locks.length,15);
+assert.equal(Object.keys(master.brand_profiles.profiles).length,4);
+assert.equal(C.validateWorkspace({projects:[{id:'p1',title:'Test',profileId:'GYAAN_JUNCTION_PLUS'}],assets:[{id:'a1',projectId:'p1'}]}),true);
+assert.throws(()=>C.validateWorkspace({projects:[],assets:[{id:'a1',projectId:'missing'}]}));
+console.log('PASS core Unicode, limit, master integrity and workspace validation tests');
