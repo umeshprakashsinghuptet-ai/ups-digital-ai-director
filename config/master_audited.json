@@ -9180,5 +9180,77 @@
       "runtime_and_integrations": "NOT_RATED — evidence unavailable",
       "end_to_end_product": "NOT_CERTIFIED"
     }
+  },
+  "ui_module_integration_contract": {
+    "contract_version": "1.0",
+    "status": "LOCAL_PLANNING_AND_PROMPT_WORKBENCH",
+    "modules": [
+      {
+        "id": "image",
+        "label": "Image Studio",
+        "purpose": "Image brief and prompt planning",
+        "provider_execution": "NOT_CONNECTED"
+      },
+      {
+        "id": "video",
+        "label": "Video Studio",
+        "purpose": "Video brief and prompt planning; maximum 900 Unicode code points",
+        "provider_execution": "NOT_CONNECTED"
+      },
+      {
+        "id": "series",
+        "label": "Series Studio",
+        "purpose": "Series bible and episode planning",
+        "provider_execution": "NOT_CONNECTED"
+      },
+      {
+        "id": "storyboard",
+        "label": "Storyboard",
+        "purpose": "Shot-by-shot planning",
+        "provider_execution": "NOT_CONNECTED"
+      },
+      {
+        "id": "vfx",
+        "label": "VFX Studio",
+        "purpose": "Visual effects planning",
+        "provider_execution": "NOT_CONNECTED"
+      },
+      {
+        "id": "bfx",
+        "label": "BFX Studio",
+        "purpose": "Behaviour and movement planning",
+        "provider_execution": "NOT_CONNECTED"
+      },
+      {
+        "id": "audio",
+        "label": "Audio Studio",
+        "purpose": "Voice and sound planning",
+        "provider_execution": "NOT_CONNECTED"
+      },
+      {
+        "id": "social",
+        "label": "Captions & Social",
+        "purpose": "Caption, hashtag and CTA planning",
+        "provider_execution": "NOT_CONNECTED"
+      }
+    ],
+    "persistence": {
+      "storage": "ups_director_workspace_v2",
+      "module_drafts": "state.moduleDrafts",
+      "backup_includes_module_drafts": true,
+      "project_scoped": true
+    },
+    "limits_and_truthfulness": {
+      "video_prompt_max_code_points": 900,
+      "no_fake_provider_success": true,
+      "no_claim_of_live_rendering_without_provider": true
+    },
+    "acceptance_gates": [
+      "master_inventory_50_engines_15_locks_4_profiles",
+      "project_scoped_module_drafts",
+      "workspace_backup_restore",
+      "responsive_browser_acceptance",
+      "provider_integrations_tested_separately"
+    ]
   }
 }
