@@ -30,9 +30,9 @@
       "sha256": "da4cbc4296eff9aecc7c69033683f19f7cd6a594e7522718f468a7928fb863aa"
     },
     {
-      "path": "config/master_audited.json",
-      "size_bytes": 370974,
-      "sha256": "583a26b8af94ada6300f453e9fac67564edfac1bcc2c5639bc40f619716a3843"
+    "path": "config/master_audited.json",
+    "size_bytes": 370974,
+    "sha256": "583a26b8af94ada6300f453e9fac67564edfac1bcc2c5639bc40f619716a3843"
     },
     {
       "path": "docs/README_HI.md",
