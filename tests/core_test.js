@@ -14,6 +14,7 @@ assert.equal(C.validateMaster(master),true);
 assert.equal(master.engines.length,50);
 assert.equal(master.locks.length,15);
 assert.equal(Object.keys(master.brand_profiles.profiles).length,4);
-assert.equal(C.validateWorkspace({projects:[{id:'p1',title:'Test',profileId:'GYAAN_JUNCTION_PLUS'}],assets:[{id:'a1',projectId:'p1'}]}),true);
+assert.equal(C.validateWorkspace({projects:[{id:'p1',title:'Test',profileId:'GYAAN_JUNCTION_PLUS'}],assets:[{id:'a1',projectId:'p1'}],moduleDrafts:{'p1::image':{module:'image',projectId:'p1',data:{brief:'test'}}}}),true);
 assert.throws(()=>C.validateWorkspace({projects:[],assets:[{id:'a1',projectId:'missing'}]}));
+assert.throws(()=>C.validateWorkspace({projects:[{id:'p1',title:'Test',profileId:'x'}],assets:[],moduleDrafts:{bad:{module:'unknown',projectId:'p1'}}}));
 console.log('PASS core Unicode, limit, master integrity and workspace validation tests');

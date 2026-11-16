@@ -1,32 +1,33 @@
-# Technical Test Report — Final Functional Starter
+# Technical Test Report — Integrated Local Build
 
-## Automated checks executed in the package build
-- Master JSON parsed and validated: exactly 50 engines, 15 locks, four profiles.
-- JavaScript syntax: `node --check app/core.js`, `node --check app/app.js`, `node --check tests/*.js`.
-- Core tests: Unicode NFC, CRLF normalization, emoji code-point counting, 900/901 video prompt boundary, master integrity and workspace import validation.
-- HTML-to-JavaScript element ID references checked.
-- Package manifest file sizes and SHA-256 hashes regenerated.
-- Secret scan: no API key or service-role key values are included.
-- SQL reviewed for RLS owner scoping, audit append-only policy, project updated_at trigger and least-privilege grants.
+## Automated checks executed
+- Master JSON parses and validates: exactly 50 engines, 15 locks and four brand profiles.
+- Master UI integration contract lists all eight creator workbenches and marks provider execution as not connected.
+- `node --check app/core.js` and `node --check app/app.js`: PASS.
+- Core tests: Unicode NFC, CRLF normalization, emoji code-point counting, 900/901 video prompt boundary, master inventory, workspace references and module-draft validation.
+- HTML inspection: 16 navigation views, eight module forms, eight save/export controls, zero duplicate IDs, all 42 literal app.js element references exist.
+- HTML loads `core.js` before `app.js`; no inline duplicate module controller remains.
+- Secret scan: no provider API key or service-role secret values included.
+- Package manifest sizes and SHA-256 hashes regenerated and verified.
 
-## Browser / external acceptance not performed
-No live Android Chrome or desktop browser automation, Supabase project, Gemini API, media generation provider, VFX renderer, audio/lip-sync provider, or real publishing account was connected. These remain NOT TESTED, not PASS.
+## Not performed / not certified
+- No live Android Chrome or desktop browser automation was completed in this environment.
+- No live Supabase, Gemini, image/video/audio provider, VFX renderer or social publishing account was connected.
+- SQL was not applied to a live database.
+- Therefore this is a static/local build validation, not a 100% production acceptance certificate.
 
 ## Manual acceptance checklist
-- [ ] Open GitHub Pages HTTPS deployment and check console for errors.
-- [ ] Create a project under each of the four profiles.
-- [ ] Save prompt, reload page and verify local persistence.
-- [ ] Verify 900 code points accepted and 901 rejected for video prompts.
-- [ ] Verify Hindi, combining marks, emoji and CRLF counting.
-- [ ] Test clipboard permission and TXT/JSON/CSV downloads.
-- [ ] Export/import workspace JSON and compare project/asset metadata.
-- [ ] Test mobile and desktop breakpoints.
-- [ ] Apply SQL to a disposable Supabase staging project.
-- [ ] With two test accounts, verify user A cannot read or modify user B's projects/assets/audit events.
-- [ ] Verify audit events cannot be updated/deleted by client roles.
-- [ ] Configure private Storage policies separately and run a backup/restore drill.
+- [ ] Deploy to GitHub Pages and inspect browser console/network errors.
+- [ ] Create projects under all four profiles.
+- [ ] Save and restore each of the eight module drafts for separate projects.
+- [ ] Confirm deleting a project leaves no dangling assets/module drafts (QC must flag none).
+- [ ] Export/import workspace JSON and confirm all module drafts return.
+- [ ] Test video prompts at 900 and 901 Unicode code points.
+- [ ] Test TXT/JSON/CSV downloads and clipboard permissions.
+- [ ] Test mobile and desktop breakpoints on actual devices.
+- [ ] Test cloud/provider integrations separately after configuration.
 
 ## Release decision
-STATIC PACKAGE CHECKS: PASS.
-LOCAL STARTER FUNCTIONALITY: IMPLEMENTED; BROWSER ACCEPTANCE PENDING.
+STATIC PACKAGE VALIDATION: PASS.
+LOCAL WORKSPACE FEATURES: IMPLEMENTED; browser acceptance pending.
 END-TO-END / PRODUCTION RELEASE: NOT CERTIFIED.
