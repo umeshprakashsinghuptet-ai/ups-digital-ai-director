@@ -1,11 +1,7 @@
-# UMESH PRAKASH SINGH DIGITAL AI DIRECTOR — Functional Starter
+# UMESH PRAKASH SINGH DIGITAL AI DIRECTOR
 
-Open `index.html` through an HTTPS static host (for example, GitHub Pages) or a local HTTP server. The app loads `config/master_audited.json` and provides a local project dashboard, brand profiles, prompt editor/counter, asset metadata register, exports, workspace backup/import and local QC.
+Static local-first creator workspace. Open `index.html` through a local web server or GitHub Pages. The app supports project/profile management, prompt drafting, project-scoped module drafts, metadata asset registration, JSON/CSV/TXT exports and workspace backup/restore.
 
-## Important boundaries
-- Projects and asset metadata are stored in the current browser's localStorage. They do not automatically sync between devices.
-- Selecting a file registers its name/type/size metadata only; the file bytes are not uploaded or backed up.
-- Video prompts are limited to 900 Unicode code points after NFC and line-ending normalization.
-- Gemini, image/video generation, VFX/BFX rendering, audio/lip-sync, publishing and Supabase cloud sync are not connected.
-- Never place provider API keys or Supabase service-role keys in browser JavaScript.
-- Read `docs/README_HI.md` and `docs/RELEASE_GAPS.md` before deployment.
+The eight creator modules are planning/prompt workbenches. AI image/video rendering, audio generation, cloud sync and social publishing are not connected in this build. API secrets must never be placed in browser code.
+
+Master inventory is expected to contain exactly 50 engines, 15 locks and 4 brand profiles.

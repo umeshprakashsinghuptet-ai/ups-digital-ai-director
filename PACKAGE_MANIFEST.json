@@ -1,80 +1,38 @@
 {
-  "package": "UMESH PRAKASH SINGH DIGITAL AI DIRECTOR — FINAL TECHNICALLY AUDITED FUNCTIONAL STARTER",
-  "build_date": "2026-11-16",
-  "release_state": "STATIC_PACKAGE_QA_PASS_END_TO_END_RELEASE_NOT_CERTIFIED",
-  "source_master": "config/master_audited.json",
-  "source_master_sha256": "1ae525cc7cf4fc842d33dc1f44b1dddd24dee92d0762cb995b61ab6bd67e974a",
-  "master_inventory": {
-    "engines": 50,
-    "locks": 15,
-    "brand_profiles": 4
-  },
-  "automated_tests": [
-    {
-      "name": "JavaScript syntax: app/core.js",
-      "result": "PASS"
-    },
-    {
-      "name": "JavaScript syntax: app/app.js",
-      "result": "PASS"
-    },
-    {
-      "name": "Prompt counter Unicode test vectors",
-      "result": "PASS 6/6"
-    },
-    {
-      "name": "Core validation and boundary tests",
-      "result": "PASS"
-    },
-    {
-      "name": "HTML/JS direct selector ID audit",
-      "result": "PASS"
-    },
-    {
-      "name": "Secret pattern scan",
-      "result": "PASS; no matching secret values found"
-    }
-  ],
-  "not_tested": [
-    "Live Android Chrome and desktop browser acceptance",
-    "Supabase SQL execution and two-user RLS test",
-    "Gemini/provider API",
-    "Image/video/VFX/BFX rendering",
-    "Audio and lip-sync",
-    "Publishing integrations",
-    "Binary asset upload and storage",
-    "In-app ZIP export"
-  ],
+  "package": "UMESH PRAKASH SINGH DIGITAL AI DIRECTOR",
+  "release": "INTEGRATED LOCAL BUILD",
+  "manifest_version": 2,
+  "generated_utc": "2026-11-16",
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 998,
-      "sha256": "99474d70f814af5b85d026f20e7735c52241fb87eb613a4887f1d97e2951c376"
+      "size_bytes": 627,
+      "sha256": "cdfbbce302257ed90d519a14e317e154918f47d33a1fd7e08ca65a45a7299bfc"
     },
     {
       "path": "app/app.js",
-      "size_bytes": 14432,
-      "sha256": "0b4554d8fa20d2560e7b617629fb4fc621ff3b1f560c499d6035a664bbcbe88d"
+      "size_bytes": 18192,
+      "sha256": "6400d7b6a7f811dda8857c416c73620c75ad005b94cae20d292f241e72677e19"
     },
     {
       "path": "app/core.js",
-      "size_bytes": 3570,
-      "sha256": "aac93d93b7a4bbde9df370ae5e9a68a2dd15b0d2abb0a0fbfa3619290221883a"
+      "size_bytes": 3947,
+      "sha256": "a26738c4252b2d1b9d1f3e9785fb56dba7c2aea302a75c108087a5b262ee539b"
     },
     {
       "path": "app/index.html",
-      "size_bytes": 9575,
-      "sha256": "a25794dd2cc5713148d73a2580ad19e46466a7670cc9702b2de96441fe881812"
+      "size_bytes": 23845,
+      "sha256": "b02f73ecb40e98e3b4c6a2b8b47f9d58d0b07fb39e747a2367ec6610a3cb0dae"
     },
     {
       "path": "app/styles.css",
-      "size_bytes": 5997,
-      "sha256": "a476d29f6cf545a302844f774afec92fad8def671aa4eeb93f2ab11c80ff7f10"
+      "size_bytes": 6821,
+      "sha256": "da4cbc4296eff9aecc7c69033683f19f7cd6a594e7522718f468a7928fb863aa"
     },
     {
       "path": "config/master_audited.json",
-      "size_bytes": 349640,
-      "sha256": "1ae525cc7cf4fc842d33dc1f44b1dddd24dee92d0762cb995b61ab6bd67e974a"
+      "size_bytes": 351812,
+      "sha256": "5ae248518f7b5788dfeff8dc18cd1770bc87a9713b0de1c0ce2802fe626cc503"
     },
     {
       "path": "docs/README_HI.md",
@@ -88,8 +46,8 @@
     },
     {
       "path": "docs/TECHNICAL_AUDIT_FINAL.md",
-      "size_bytes": 2980,
-      "sha256": "6231a8e132d9f592e4e19ca1face68c7354ac063fd9d53e797521c1e0b961d8e"
+      "size_bytes": 968,
+      "sha256": "b722a74b9aae58eb8ba99b4a2f1ed7d49125cbbac3d76a8089dbbed00baa4645"
     },
     {
       "path": "index.html",
@@ -103,18 +61,30 @@
     },
     {
       "path": "tests/TEST_REPORT.md",
-      "size_bytes": 2032,
-      "sha256": "8025bef4a2684018aafe3fa16f39c1391816ce9c044d3e5cdf7b6c4456d24535"
+      "size_bytes": 2112,
+      "sha256": "b7ab904ec5270e2a2e294cc48b0f394aeb527fa9386182d13c1b209d84ff98cf"
     },
     {
       "path": "tests/core_test.js",
-      "size_bytes": 1223,
-      "sha256": "f7fc185b6c0c4c8e611d867a1f479dd839508dd019a059bb9b9fce7d695ab785"
+      "size_bytes": 1456,
+      "sha256": "542a5303dbc15e5fc03bbcb3b784385115f448ca6df49b7abb5b0fc30ed6143e"
     },
     {
       "path": "tests/prompt_counter_test.js",
       "size_bytes": 545,
       "sha256": "9f7e84ef2a06d2dae061a9f6298f2cfd40cdfe667a714903ad007d888ee62147"
     }
+  ],
+  "integrity": {
+    "engines": 50,
+    "locks": 15,
+    "brand_profiles": 4,
+    "navigation_views": 16,
+    "creator_workbenches": 8
+  },
+  "limitations": [
+    "External AI providers are not connected",
+    "Supabase cloud sync is not configured",
+    "Live browser/device acceptance is pending"
   ]
 }
