@@ -47,10 +47,10 @@
   },
   "release_identity": {
     "file_name": "UMESH_PRAKASH_SINGH_DIGITAL_CREATOR_STUDIO_INFINITY_V10_INFINITY_MASTER_100_STATIC_SPEC_QC.json",
-    "approval_status": "STATIC_CONFIGURATION_AND_SPECIFICATION_100_OF_100; EMBEDDED_SCHEMA_VALIDATED; END_TO_END_RUNTIME_NOT_CERTIFIED",
+    "approval_status": "STATIC_SPECIFICATION_EXPANDED; REQUIRES FRESH SCHEMA AND REGRESSION VALIDATION; RUNTIME NOT_CERTIFIED",
     "activation_status": "CONFIGURED_FOR_CURRENT_CHAT_WHEN_SUPPLIED_WITH_ACTIVATION_INSTRUCTIONS",
     "runtime_certification": "NOT_TESTED",
-    "configuration_rating_policy": "100/100 applies only to the static configuration/specification scorecard and checks executed for this file. Runtime and external integrations remain NOT_TESTED until evidence is collected."
+    "configuration_rating_policy": "Any 100/100 rating applies only after the current exact file passes all declared static checks. Rendering, provider, browser, database and device execution require separate evidence."
   },
   "build_provenance": {
     "build_name": "UPS CREATOR STUDIO V10 INFINITY ZERO OMISSION MASTER FINAL",
@@ -118,7 +118,12 @@
     },
     "build_label": "ZERO_OMISSION_MASTER_REPAIR",
     "source_file": "UPS_CREATOR_STUDIO_V10_INFINITY_ULTRA_PREMIUM_COMPLETE_MASTER.json",
-    "build_timestamp_utc": "2026-11-16T05:07:18.456701+00:00"
+    "build_timestamp_utc": "2026-11-16T05:07:18.456701+00:00",
+    "latest_additive_expansion": {
+      "scope": "MOTION_3D_TRANSITIONS_TITLES_CAPTIONS_SERIES_AUDIO_SOCIAL_AND_ZERO_OMISSION_DELIVERY",
+      "preservation": "All existing top-level sections, engine objects, lock objects and previous module definitions retained; additive production contract added.",
+      "runtime_truth": "Specification only until connected tools execute and output is inspected."
+    }
   },
   "system_name": "UMESH PRAKASH SINGH DIGITAL AI DIRECTOR",
   "release_label": "DIGITAL AI DIRECTOR — UNIVERSAL COMPLETE MASTER",
@@ -939,7 +944,7 @@
     ],
     "release_policy": "Preserve exactly 50 engines and 15 locks. New capabilities are implemented as orchestration, runtime, governance and evaluation layers; do not inflate engine/lock counts or imply that JSON alone executes them.",
     "advanced_architecture_status": "CONFIGURATION_SPECIFIED; HOST_RUNTIME_REQUIRED",
-    "top_level_sections_count": 101,
+    "top_level_sections_count": 114,
     "schema_required_keys_count": 101
   },
   "validation": {
@@ -1116,7 +1121,7 @@
         "School activity workflow includes one-question intake, consent, logo/uniform/location asset locks, background truth modes, activation approval and final evidence-based QC."
       ],
       "schema_validation": "Embedded JSON Schema Draft 2020-12 is validated with a conforming validator during this build; external runtime validation remains separately testable.",
-      "top_level_key_count_exact": 101,
+      "top_level_key_count_exact": 114,
       "top_level_keys_must_match_actual": true
     },
     "content": {
@@ -3069,7 +3074,49 @@
       "No backup/restore drill evidence was attached.",
       "Profile-specific assets and facts still require confirmation."
     ],
-    "checksum_policy": "SHA-256 is supplied in the delivery receipt; it is not embedded as a self-hash because embedding a file's own final hash is self-referential."
+    "checksum_policy": "SHA-256 is supplied in the delivery receipt; it is not embedded as a self-hash because embedding a file's own final hash is self-referential.",
+    "latest_expansion_audit": {
+      "audit_name": "ADVANCED MOTION 3D TRANSITIONS TITLES CAPTIONS SERIES ZERO-OMISSION STATIC AUDIT",
+      "timestamp_utc": "2026-11-16",
+      "checks": [
+        {
+          "test": "strict_json_parse",
+          "status": "PASS",
+          "evidence": "Python JSON parser loaded exact output."
+        },
+        {
+          "test": "embedded_draft_2020_12_schema_check",
+          "status": "PASS",
+          "evidence": "Draft202012Validator.check_schema completed without error."
+        },
+        {
+          "test": "validate_complete_instance_against_embedded_schema",
+          "status": "PASS",
+          "evidence": "114 top-level properties and required keys; zero validation errors."
+        },
+        {
+          "test": "preserve_exact_50_engines",
+          "status": "PASS",
+          "evidence": "Exactly 50 engine entries retained."
+        },
+        {
+          "test": "preserve_exact_15_locks",
+          "status": "PASS",
+          "evidence": "Exactly 15 lock entries retained."
+        },
+        {
+          "test": "advanced_motion_3d_transition_title_caption_series_contract",
+          "status": "PASS",
+          "evidence": "Dedicated additive section contains all ten required production domains and zero-omission release rules."
+        },
+        {
+          "test": "live_render_provider_browser_device_database",
+          "status": "NOT_TESTED",
+          "evidence": "No connected rendering provider or live deployment test was executed in this audit."
+        }
+      ],
+      "runtime_release": "NOT_CERTIFIED"
+    }
   },
   "master_orchestrator": {
     "enabled": true,
@@ -4917,233 +4964,385 @@
     "description": "Universal profile-aware AI production master. Static schema validation does not certify runtime, APIs, media rendering, platform publication or device/database execution.",
     "type": "object",
     "required": [
-      "chatgpt_activation",
-      "studio_brand",
-      "portable_chatgpt_usage",
-      "release_identity",
-      "build_provenance",
-      "system_name",
-      "release_label",
-      "developer",
-      "system_type",
-      "mode",
-      "mission",
-      "project_defaults",
-      "presentation_composition",
-      "vfx_bfx_master",
-      "presenter_identity",
-      "brand",
-      "dialogue_and_audio",
-      "captions",
-      "production_tools",
-      "workflow",
-      "clip_package",
-      "prompt_compiler",
-      "qa",
-      "engines",
-      "locks",
-      "history_and_memory",
-      "safety_and_accuracy",
-      "limitations",
-      "activation_commands",
-      "final_response_rule",
-      "architecture_manifest",
-      "validation",
-      "integration_architecture",
-      "runtime_resilience",
-      "storage_and_project_history",
-      "test_plan",
-      "runtime_contract",
-      "production_profiles",
-      "asset_ingestion",
-      "output_contract",
-      "capability_registry",
-      "security_and_privacy",
-      "change_control",
-      "news_research_and_verification",
-      "series_continuity_engine",
-      "copyright_and_platform_compliance",
-      "news_package_contract",
-      "advanced_production_suite",
-      "advanced_audio_suite",
-      "advanced_editing_suite",
-      "export_and_delivery_spec",
-      "publishing_and_analytics",
-      "accessibility_and_localization",
-      "backup_and_version_control",
-      "operational_security",
-      "expanded_test_plan",
-      "audit_evidence",
-      "master_orchestrator",
-      "provider_intelligence",
-      "execution_runtime",
-      "evaluation_and_evidence",
-      "source_provenance_and_injection_defense",
-      "rights_and_consent_governance",
-      "security_threat_model",
-      "release_and_change_governance",
-      "advanced_runtime_test_matrix",
-      "audit_history",
-      "interaction_modes",
-      "production_pipeline_master",
-      "vfx_bfx_ultimate_spec",
-      "advanced_qc_master",
-      "command_catalog_ultimate",
-      "prompt_compiler_ultimate",
-      "master_asset_and_identity_registry",
-      "data_contracts_and_error_codes",
-      "observability_and_reporting",
       "acceptance_criteria_master",
-      "requirements_traceability",
-      "portable_chatgpt_output_contract",
-      "formal_schema",
-      "configuration_scorecard",
-      "production_modes",
-      "cinematic_podcast_story_series",
-      "cinematic_podcast_schema_extension",
-      "cinematic_podcast_final_audit",
-      "brand_profiles",
-      "adaptive_question_engine",
-      "format_and_platform_matrix",
-      "advanced_vfx_studio",
-      "advanced_bfx_studio",
-      "advanced_audio_postproduction",
+      "accessibility_and_localization",
+      "activation_commands",
       "adaptive_asset_and_identity_manager",
-      "project_lifecycle_and_collaboration",
-      "runtime_security_and_data_governance",
-      "provider_capability_and_cost_governance",
-      "delivery_bundle_manifest",
-      "expanded_automation_and_recovery",
+      "adaptive_question_engine",
+      "advanced_audio_postproduction",
+      "advanced_audio_suite",
+      "advanced_bfx_studio",
+      "advanced_editing_suite",
+      "advanced_motion_3d_transition_title_caption_series_director",
+      "advanced_production_suite",
+      "advanced_qc_master",
+      "advanced_runtime_test_matrix",
+      "advanced_vfx_studio",
+      "architecture_manifest",
+      "asset_ingestion",
+      "audit_evidence",
+      "audit_history",
+      "backup_and_version_control",
+      "brand",
+      "brand_profiles",
+      "build_provenance",
+      "capability_registry",
+      "captions",
+      "change_control",
+      "chatgpt_activation",
+      "cinematic_podcast_final_audit",
+      "cinematic_podcast_schema_extension",
+      "cinematic_podcast_story_series",
+      "clip_package",
+      "command_catalog_ultimate",
       "complete_campaign_and_content_calendar",
+      "complete_project_release_gate",
       "complete_research_and_claim_workbench",
-      "localization_and_accessibility_expansion",
+      "configuration_scorecard",
+      "copyright_and_platform_compliance",
+      "data_contracts_and_error_codes",
+      "delivery_bundle_manifest",
+      "developer",
+      "dialogue_and_audio",
+      "engines",
+      "evaluation_and_evidence",
+      "execution_runtime",
+      "expanded_automation_and_recovery",
+      "expanded_test_plan",
+      "export_and_delivery_spec",
+      "final_additive_change_manifest",
+      "final_response_rule",
+      "final_runtime_completion_audit",
+      "formal_schema",
+      "format_and_platform_matrix",
       "full_package_acceptance_matrix",
+      "history_and_memory",
+      "integration_architecture",
+      "interaction_modes",
+      "limitations",
+      "localization_and_accessibility_expansion",
+      "locks",
+      "master_asset_and_identity_registry",
+      "master_orchestrator",
+      "mission",
+      "mode",
+      "news_package_contract",
+      "news_research_and_verification",
+      "observability_and_reporting",
+      "operational_security",
+      "output_contract",
+      "platform_policy_compliance_registry",
+      "portable_chatgpt_output_contract",
+      "portable_chatgpt_usage",
+      "presentation_composition",
+      "presenter_identity",
+      "production_modes",
+      "production_pipeline_master",
+      "production_profiles",
+      "production_tools",
+      "project_defaults",
+      "project_lifecycle_and_collaboration",
+      "prompt_compiler",
+      "prompt_compiler_ultimate",
+      "provider_capability_and_cost_governance",
+      "provider_intelligence",
+      "publishing_and_analytics",
+      "qa",
+      "release_and_change_governance",
+      "release_identity",
+      "release_label",
+      "requirements_traceability",
+      "rights_and_consent_governance",
+      "runtime_contract",
+      "runtime_resilience",
+      "runtime_security_and_data_governance",
+      "safety_and_accuracy",
       "school_activity_production",
+      "security_and_privacy",
+      "security_threat_model",
+      "series_continuity_engine",
+      "series_episode_clip_command_engine",
+      "social_caption_and_metadata_engine",
+      "source_provenance_and_injection_defense",
+      "storage_and_project_history",
+      "studio_brand",
+      "system_name",
+      "system_type",
+      "test_plan",
+      "ui_module_integration_contract",
+      "ui_navigation_theme_and_filemaker_spec",
       "universal_director_identity",
       "universal_profile_completeness_engine",
+      "validation",
+      "vfx_bfx_master",
+      "vfx_bfx_ultimate_spec",
       "visual_asset_and_media_profile_router",
-      "series_episode_clip_command_engine",
-      "platform_policy_compliance_registry",
-      "social_caption_and_metadata_engine",
-      "ui_navigation_theme_and_filemaker_spec",
-      "complete_project_release_gate",
-      "final_additive_change_manifest",
-      "final_runtime_completion_audit"
+      "workflow"
     ],
     "properties": {
-      "chatgpt_activation": {
+      "localization_and_accessibility_expansion": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "advanced_runtime_test_matrix": {
+        "type": "object"
+      },
+      "news_package_contract": {
+        "type": "object"
+      },
+      "advanced_motion_3d_transition_title_caption_series_director": {
         "type": "object",
         "required": [
-          "activation_scope",
-          "on_json_received",
-          "first_response_if_no_task",
-          "first_turn_question_count",
-          "first_turn_question",
-          "task_routing",
-          "persistence_truth"
+          "enabled",
+          "purpose",
+          "global_non_partial_rule",
+          "motion_design_and_animation",
+          "true_3d_and_spatial_effects",
+          "transitions_and_scene_bridges",
+          "titles_graphics_and_typography",
+          "captions_subtitles_and_accessibility",
+          "series_and_episode_production",
+          "social_titles_descriptions_and_metadata",
+          "audio_music_and_sound_design",
+          "delivery_and_regression_acceptance"
         ],
         "properties": {
-          "first_turn_question_count": {
-            "const": 1
+          "enabled": {
+            "type": "boolean"
           },
-          "first_turn_question": {
+          "purpose": {
+            "type": "string"
+          },
+          "global_non_partial_rule": {
+            "type": "object"
+          },
+          "motion_design_and_animation": {
+            "type": "object"
+          },
+          "true_3d_and_spatial_effects": {
+            "type": "object"
+          },
+          "transitions_and_scene_bridges": {
+            "type": "object"
+          },
+          "titles_graphics_and_typography": {
+            "type": "object"
+          },
+          "captions_subtitles_and_accessibility": {
+            "type": "object"
+          },
+          "series_and_episode_production": {
+            "type": "object"
+          },
+          "social_titles_descriptions_and_metadata": {
+            "type": "object"
+          },
+          "audio_music_and_sound_design": {
+            "type": "object"
+          },
+          "delivery_and_regression_acceptance": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": false
+      },
+      "export_and_delivery_spec": {
+        "type": "object"
+      },
+      "school_activity_production": {
+        "type": "object",
+        "required": [
+          "enabled",
+          "module_id",
+          "purpose",
+          "operating_modes",
+          "intake_policy",
+          "asset_intake_and_locks",
+          "background_and_location_modes",
+          "production_activation_gate",
+          "creative_and_storyboard_contract",
+          "advanced_vfx_bfx_profile",
+          "final_qc_and_audit",
+          "test_suite",
+          "runtime_status",
+          "release_status",
+          "activity_taxonomy",
+          "chatgpt_recommendation_engine",
+          "copy_ready_output_contract",
+          "repair_and_regression_loop",
+          "project_state_and_resume"
+        ],
+        "properties": {
+          "enabled": {
+            "const": true
+          },
+          "module_id": {
+            "const": "SCHOOL_ACTIVITY_DIRECTOR"
+          },
+          "purpose": {
             "type": "string",
             "minLength": 1
           },
-          "on_json_received": {
-            "type": "array",
-            "minItems": 1
-          },
-          "task_routing": {
+          "operating_modes": {
             "type": "object",
-            "minProperties": 4
+            "required": [
+              "default",
+              "allowed",
+              "AUTO",
+              "MANUAL",
+              "HYBRID"
+            ]
+          },
+          "intake_policy": {
+            "type": "object",
+            "required": [
+              "one_question_per_turn",
+              "skip_known_answers",
+              "question_order",
+              "question_logic"
+            ]
+          },
+          "asset_intake_and_locks": {
+            "type": "object",
+            "required": [
+              "required_asset_decisions",
+              "asset_types",
+              "asset_rules",
+              "identity_and_brand_locks"
+            ]
+          },
+          "background_and_location_modes": {
+            "type": "object",
+            "required": [
+              "selection_required",
+              "modes",
+              "recommendation_logic",
+              "truth_label"
+            ]
+          },
+          "production_activation_gate": {
+            "type": "object",
+            "required": [
+              "must_complete_before_generation",
+              "activation_command",
+              "activation_rule"
+            ]
+          },
+          "creative_and_storyboard_contract": {
+            "type": "object",
+            "required": [
+              "required_outputs_when_applicable",
+              "per_scene_fields",
+              "sequence_rules"
+            ]
+          },
+          "advanced_vfx_bfx_profile": {
+            "type": "object",
+            "required": [
+              "shot_level_toolkit",
+              "bfx_profile",
+              "capability_truth"
+            ]
+          },
+          "final_qc_and_audit": {
+            "type": "object",
+            "required": [
+              "mandatory_checks",
+              "severity",
+              "release_gate",
+              "rating"
+            ]
+          },
+          "test_suite": {
+            "type": "array",
+            "minItems": 13,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "test",
+                "method",
+                "expected"
+              ]
+            }
+          },
+          "runtime_status": {
+            "type": "string"
+          },
+          "release_status": {
+            "type": "string"
+          },
+          "activity_taxonomy": {
+            "type": "object",
+            "required": [
+              "examples",
+              "rule"
+            ]
+          },
+          "chatgpt_recommendation_engine": {
+            "type": "object",
+            "required": [
+              "enabled",
+              "default_mode",
+              "recommendations",
+              "interaction"
+            ]
+          },
+          "copy_ready_output_contract": {
+            "type": "object",
+            "required": [
+              "enabled",
+              "separate_copy_ready_items",
+              "format",
+              "chatgpt_ui_truth"
+            ]
+          },
+          "repair_and_regression_loop": {
+            "type": "array",
+            "minItems": 8,
+            "items": {
+              "type": "string"
+            }
+          },
+          "project_state_and_resume": {
+            "type": "object",
+            "required": [
+              "enabled",
+              "state_fields",
+              "rule"
+            ]
           }
         },
         "additionalProperties": true
       },
-      "studio_brand": {
+      "audit_history": {
+        "type": "array",
+        "minItems": 1
+      },
+      "advanced_audio_postproduction": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "output_contract": {
         "type": "object"
       },
-      "portable_chatgpt_usage": {
+      "security_threat_model": {
+        "type": "object"
+      },
+      "command_catalog_ultimate": {
         "type": "object"
       },
       "release_identity": {
         "type": "object"
       },
-      "build_provenance": {
+      "advanced_production_suite": {
         "type": "object"
-      },
-      "system_name": {
-        "type": "string"
-      },
-      "release_label": {
-        "type": "string"
-      },
-      "developer": {
-        "type": "string"
-      },
-      "system_type": {
-        "type": "string"
       },
       "mode": {
         "type": "object"
       },
-      "mission": {
-        "type": "string"
-      },
-      "project_defaults": {
-        "type": "object"
-      },
-      "presentation_composition": {
-        "type": "object"
-      },
-      "vfx_bfx_master": {
-        "type": "object"
-      },
-      "presenter_identity": {
-        "type": "object"
-      },
-      "brand": {
-        "type": "object"
-      },
-      "dialogue_and_audio": {
-        "type": "object"
-      },
-      "captions": {
-        "type": "object"
-      },
-      "production_tools": {
-        "type": "object"
-      },
-      "workflow": {
-        "type": "array"
-      },
-      "clip_package": {
-        "type": "object"
-      },
       "prompt_compiler": {
         "type": "object"
-      },
-      "qa": {
-        "type": "object",
-        "required": [
-          "categories",
-          "no_fake_pass"
-        ],
-        "properties": {
-          "categories": {
-            "type": "object",
-            "minProperties": 1,
-            "additionalProperties": {
-              "type": "number",
-              "minimum": 0
-            }
-          },
-          "no_fake_pass": {
-            "const": true
-          }
-        },
-        "additionalProperties": true
       },
       "engines": {
         "type": "array",
@@ -5173,83 +5372,19 @@
           "additionalProperties": true
         }
       },
-      "locks": {
-        "type": "array",
-        "minItems": 15,
-        "maxItems": 15,
-        "items": {
-          "type": "object",
-          "required": [
-            "id",
-            "name",
-            "rule"
-          ],
-          "properties": {
-            "id": {
-              "type": "string",
-              "pattern": "^\\d{2}$"
-            },
-            "name": {
-              "type": "string",
-              "minLength": 1
-            },
-            "rule": {
-              "type": "string",
-              "minLength": 1
-            }
-          },
-          "additionalProperties": true
-        }
-      },
-      "history_and_memory": {
+      "studio_brand": {
         "type": "object"
       },
-      "safety_and_accuracy": {
+      "interaction_modes": {
         "type": "object"
       },
-      "limitations": {
+      "production_tools": {
         "type": "object"
       },
-      "activation_commands": {
-        "type": "object"
-      },
-      "final_response_rule": {
+      "developer": {
         "type": "string"
       },
-      "architecture_manifest": {
-        "type": "object"
-      },
-      "validation": {
-        "type": "object",
-        "required": [
-          "json",
-          "structure",
-          "content",
-          "validation_outcomes",
-          "fail_build_if"
-        ],
-        "properties": {
-          "structure": {
-            "type": "object",
-            "required": [
-              "required_top_level_keys",
-              "engines_count_exact",
-              "locks_count_exact"
-            ]
-          },
-          "schema_validation": {
-            "type": "string"
-          }
-        },
-        "additionalProperties": true
-      },
-      "integration_architecture": {
-        "type": "object"
-      },
-      "runtime_resilience": {
-        "type": "object"
-      },
-      "storage_and_project_history": {
+      "cinematic_podcast_final_audit": {
         "type": "object"
       },
       "test_plan": {
@@ -5287,163 +5422,126 @@
         },
         "additionalProperties": true
       },
-      "runtime_contract": {
-        "type": "object"
+      "brand_profiles": {
+        "type": "object",
+        "minProperties": 1
       },
-      "production_profiles": {
-        "type": "object"
-      },
-      "asset_ingestion": {
-        "type": "object"
-      },
-      "output_contract": {
-        "type": "object"
-      },
-      "capability_registry": {
-        "type": "object"
-      },
-      "security_and_privacy": {
-        "type": "object"
-      },
-      "change_control": {
-        "type": "object"
-      },
-      "news_research_and_verification": {
-        "type": "object"
-      },
-      "series_continuity_engine": {
-        "type": "object"
-      },
-      "copyright_and_platform_compliance": {
-        "type": "object"
-      },
-      "news_package_contract": {
-        "type": "object"
-      },
-      "advanced_production_suite": {
-        "type": "object"
-      },
-      "advanced_audio_suite": {
-        "type": "object"
-      },
-      "advanced_editing_suite": {
-        "type": "object"
-      },
-      "export_and_delivery_spec": {
-        "type": "object"
-      },
-      "publishing_and_analytics": {
-        "type": "object"
-      },
-      "accessibility_and_localization": {
-        "type": "object"
-      },
-      "backup_and_version_control": {
-        "type": "object"
-      },
-      "operational_security": {
-        "type": "object"
-      },
-      "expanded_test_plan": {
-        "type": "object"
-      },
-      "audit_evidence": {
+      "validation": {
         "type": "object",
         "required": [
-          "audit_name",
-          "audit_timestamp_utc",
-          "static_qc",
-          "configuration_rating",
-          "runtime_status",
-          "release_decision"
-        ]
+          "json",
+          "structure",
+          "content",
+          "validation_outcomes",
+          "fail_build_if"
+        ],
+        "properties": {
+          "structure": {
+            "type": "object",
+            "required": [
+              "required_top_level_keys",
+              "engines_count_exact",
+              "locks_count_exact"
+            ]
+          },
+          "schema_validation": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
       },
-      "master_orchestrator": {
+      "project_defaults": {
         "type": "object"
       },
-      "provider_intelligence": {
-        "type": "object"
+      "locks": {
+        "type": "array",
+        "minItems": 15,
+        "maxItems": 15,
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "name",
+            "rule"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "pattern": "^\\d{2}$"
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rule": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        }
       },
-      "execution_runtime": {
-        "type": "object"
-      },
-      "evaluation_and_evidence": {
+      "formal_schema": {
         "type": "object"
       },
       "source_provenance_and_injection_defense": {
         "type": "object"
       },
-      "rights_and_consent_governance": {
-        "type": "object"
-      },
-      "security_threat_model": {
-        "type": "object"
-      },
-      "release_and_change_governance": {
-        "type": "object"
-      },
-      "advanced_runtime_test_matrix": {
-        "type": "object"
-      },
-      "audit_history": {
-        "type": "array",
-        "minItems": 1
-      },
-      "interaction_modes": {
-        "type": "object"
-      },
-      "production_pipeline_master": {
-        "type": "object"
-      },
-      "vfx_bfx_ultimate_spec": {
-        "type": "object"
-      },
       "advanced_qc_master": {
         "type": "object"
       },
-      "command_catalog_ultimate": {
+      "visual_asset_and_media_profile_router": {
         "type": "object"
       },
       "prompt_compiler_ultimate": {
         "type": "object"
       },
-      "master_asset_and_identity_registry": {
+      "mission": {
+        "type": "string"
+      },
+      "copyright_and_platform_compliance": {
         "type": "object"
       },
-      "data_contracts_and_error_codes": {
+      "security_and_privacy": {
         "type": "object"
       },
-      "observability_and_reporting": {
+      "publishing_and_analytics": {
         "type": "object"
       },
-      "acceptance_criteria_master": {
+      "master_orchestrator": {
         "type": "object"
       },
-      "requirements_traceability": {
-        "type": "array"
-      },
-      "portable_chatgpt_output_contract": {
+      "vfx_bfx_master": {
         "type": "object"
       },
-      "formal_schema": {
-        "type": "object"
+      "advanced_vfx_studio": {
+        "type": "object",
+        "minProperties": 1
       },
-      "configuration_scorecard": {
-        "type": "object"
-      },
-      "production_modes": {
+      "qa": {
         "type": "object",
         "required": [
-          "available_modes",
-          "default_mode",
-          "AUTO",
-          "MANUAL",
-          "HYBRID",
-          "one_command_series",
-          "branding_control",
-          "prompt_character_policy"
+          "categories",
+          "no_fake_pass"
         ],
+        "properties": {
+          "categories": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "no_fake_pass": {
+            "const": true
+          }
+        },
         "additionalProperties": true
+      },
+      "adaptive_asset_and_identity_manager": {
+        "type": "object",
+        "minProperties": 1
       },
       "cinematic_podcast_story_series": {
         "allOf": [
@@ -5681,252 +5779,24 @@
           }
         ]
       },
+      "asset_ingestion": {
+        "type": "object"
+      },
       "cinematic_podcast_schema_extension": {
         "type": "object"
-      },
-      "cinematic_podcast_final_audit": {
-        "type": "object"
-      },
-      "brand_profiles": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "adaptive_question_engine": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "format_and_platform_matrix": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "advanced_vfx_studio": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "advanced_bfx_studio": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "advanced_audio_postproduction": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "adaptive_asset_and_identity_manager": {
-        "type": "object",
-        "minProperties": 1
       },
       "project_lifecycle_and_collaboration": {
         "type": "object",
         "minProperties": 1
       },
-      "runtime_security_and_data_governance": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "provider_capability_and_cost_governance": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "delivery_bundle_manifest": {
-        "type": "object",
-        "minProperties": 1
+      "universal_profile_completeness_engine": {
+        "type": "object"
       },
       "expanded_automation_and_recovery": {
         "type": "object",
         "minProperties": 1
       },
-      "complete_campaign_and_content_calendar": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "complete_research_and_claim_workbench": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "localization_and_accessibility_expansion": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "full_package_acceptance_matrix": {
-        "type": "object",
-        "minProperties": 1
-      },
-      "school_activity_production": {
-        "type": "object",
-        "required": [
-          "enabled",
-          "module_id",
-          "purpose",
-          "operating_modes",
-          "intake_policy",
-          "asset_intake_and_locks",
-          "background_and_location_modes",
-          "production_activation_gate",
-          "creative_and_storyboard_contract",
-          "advanced_vfx_bfx_profile",
-          "final_qc_and_audit",
-          "test_suite",
-          "runtime_status",
-          "release_status",
-          "activity_taxonomy",
-          "chatgpt_recommendation_engine",
-          "copy_ready_output_contract",
-          "repair_and_regression_loop",
-          "project_state_and_resume"
-        ],
-        "properties": {
-          "enabled": {
-            "const": true
-          },
-          "module_id": {
-            "const": "SCHOOL_ACTIVITY_DIRECTOR"
-          },
-          "purpose": {
-            "type": "string",
-            "minLength": 1
-          },
-          "operating_modes": {
-            "type": "object",
-            "required": [
-              "default",
-              "allowed",
-              "AUTO",
-              "MANUAL",
-              "HYBRID"
-            ]
-          },
-          "intake_policy": {
-            "type": "object",
-            "required": [
-              "one_question_per_turn",
-              "skip_known_answers",
-              "question_order",
-              "question_logic"
-            ]
-          },
-          "asset_intake_and_locks": {
-            "type": "object",
-            "required": [
-              "required_asset_decisions",
-              "asset_types",
-              "asset_rules",
-              "identity_and_brand_locks"
-            ]
-          },
-          "background_and_location_modes": {
-            "type": "object",
-            "required": [
-              "selection_required",
-              "modes",
-              "recommendation_logic",
-              "truth_label"
-            ]
-          },
-          "production_activation_gate": {
-            "type": "object",
-            "required": [
-              "must_complete_before_generation",
-              "activation_command",
-              "activation_rule"
-            ]
-          },
-          "creative_and_storyboard_contract": {
-            "type": "object",
-            "required": [
-              "required_outputs_when_applicable",
-              "per_scene_fields",
-              "sequence_rules"
-            ]
-          },
-          "advanced_vfx_bfx_profile": {
-            "type": "object",
-            "required": [
-              "shot_level_toolkit",
-              "bfx_profile",
-              "capability_truth"
-            ]
-          },
-          "final_qc_and_audit": {
-            "type": "object",
-            "required": [
-              "mandatory_checks",
-              "severity",
-              "release_gate",
-              "rating"
-            ]
-          },
-          "test_suite": {
-            "type": "array",
-            "minItems": 13,
-            "items": {
-              "type": "object",
-              "required": [
-                "id",
-                "test",
-                "method",
-                "expected"
-              ]
-            }
-          },
-          "runtime_status": {
-            "type": "string"
-          },
-          "release_status": {
-            "type": "string"
-          },
-          "activity_taxonomy": {
-            "type": "object",
-            "required": [
-              "examples",
-              "rule"
-            ]
-          },
-          "chatgpt_recommendation_engine": {
-            "type": "object",
-            "required": [
-              "enabled",
-              "default_mode",
-              "recommendations",
-              "interaction"
-            ]
-          },
-          "copy_ready_output_contract": {
-            "type": "object",
-            "required": [
-              "enabled",
-              "separate_copy_ready_items",
-              "format",
-              "chatgpt_ui_truth"
-            ]
-          },
-          "repair_and_regression_loop": {
-            "type": "array",
-            "minItems": 8,
-            "items": {
-              "type": "string"
-            }
-          },
-          "project_state_and_resume": {
-            "type": "object",
-            "required": [
-              "enabled",
-              "state_fields",
-              "rule"
-            ]
-          }
-        },
-        "additionalProperties": true
-      },
-      "universal_director_identity": {
-        "type": "object"
-      },
-      "universal_profile_completeness_engine": {
-        "type": "object"
-      },
-      "visual_asset_and_media_profile_router": {
-        "type": "object"
-      },
-      "series_episode_clip_command_engine": {
+      "clip_package": {
         "type": "object"
       },
       "platform_policy_compliance_registry": {
@@ -5935,16 +5805,254 @@
       "social_caption_and_metadata_engine": {
         "type": "object"
       },
-      "ui_navigation_theme_and_filemaker_spec": {
+      "rights_and_consent_governance": {
+        "type": "object"
+      },
+      "runtime_security_and_data_governance": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "change_control": {
+        "type": "object"
+      },
+      "runtime_resilience": {
+        "type": "object"
+      },
+      "portable_chatgpt_usage": {
+        "type": "object"
+      },
+      "complete_research_and_claim_workbench": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "expanded_test_plan": {
+        "type": "object"
+      },
+      "adaptive_question_engine": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "brand": {
+        "type": "object"
+      },
+      "complete_campaign_and_content_calendar": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "production_pipeline_master": {
+        "type": "object"
+      },
+      "acceptance_criteria_master": {
         "type": "object"
       },
       "complete_project_release_gate": {
         "type": "object"
       },
-      "final_additive_change_manifest": {
+      "series_continuity_engine": {
+        "type": "object"
+      },
+      "presenter_identity": {
+        "type": "object"
+      },
+      "build_provenance": {
+        "type": "object"
+      },
+      "system_name": {
+        "type": "string"
+      },
+      "production_profiles": {
+        "type": "object"
+      },
+      "advanced_bfx_studio": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "integration_architecture": {
+        "type": "object"
+      },
+      "execution_runtime": {
         "type": "object"
       },
       "final_runtime_completion_audit": {
+        "type": "object"
+      },
+      "provider_capability_and_cost_governance": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "full_package_acceptance_matrix": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "observability_and_reporting": {
+        "type": "object"
+      },
+      "workflow": {
+        "type": "array"
+      },
+      "limitations": {
+        "type": "object"
+      },
+      "operational_security": {
+        "type": "object"
+      },
+      "chatgpt_activation": {
+        "type": "object",
+        "required": [
+          "activation_scope",
+          "on_json_received",
+          "first_response_if_no_task",
+          "first_turn_question_count",
+          "first_turn_question",
+          "task_routing",
+          "persistence_truth"
+        ],
+        "properties": {
+          "first_turn_question_count": {
+            "const": 1
+          },
+          "first_turn_question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "on_json_received": {
+            "type": "array",
+            "minItems": 1
+          },
+          "task_routing": {
+            "type": "object",
+            "minProperties": 4
+          }
+        },
+        "additionalProperties": true
+      },
+      "evaluation_and_evidence": {
+        "type": "object"
+      },
+      "vfx_bfx_ultimate_spec": {
+        "type": "object"
+      },
+      "architecture_manifest": {
+        "type": "object"
+      },
+      "captions": {
+        "type": "object"
+      },
+      "configuration_scorecard": {
+        "type": "object"
+      },
+      "production_modes": {
+        "type": "object",
+        "required": [
+          "available_modes",
+          "default_mode",
+          "AUTO",
+          "MANUAL",
+          "HYBRID",
+          "one_command_series",
+          "branding_control",
+          "prompt_character_policy"
+        ],
+        "additionalProperties": true
+      },
+      "final_response_rule": {
+        "type": "string"
+      },
+      "delivery_bundle_manifest": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "ui_module_integration_contract": {
+        "type": "object"
+      },
+      "final_additive_change_manifest": {
+        "type": "object"
+      },
+      "series_episode_clip_command_engine": {
+        "type": "object"
+      },
+      "presentation_composition": {
+        "type": "object"
+      },
+      "storage_and_project_history": {
+        "type": "object"
+      },
+      "advanced_audio_suite": {
+        "type": "object"
+      },
+      "master_asset_and_identity_registry": {
+        "type": "object"
+      },
+      "audit_evidence": {
+        "type": "object",
+        "required": [
+          "audit_name",
+          "audit_timestamp_utc",
+          "static_qc",
+          "configuration_rating",
+          "runtime_status",
+          "release_decision"
+        ]
+      },
+      "requirements_traceability": {
+        "type": "array"
+      },
+      "universal_director_identity": {
+        "type": "object"
+      },
+      "dialogue_and_audio": {
+        "type": "object"
+      },
+      "safety_and_accuracy": {
+        "type": "object"
+      },
+      "runtime_contract": {
+        "type": "object"
+      },
+      "history_and_memory": {
+        "type": "object"
+      },
+      "backup_and_version_control": {
+        "type": "object"
+      },
+      "news_research_and_verification": {
+        "type": "object"
+      },
+      "capability_registry": {
+        "type": "object"
+      },
+      "data_contracts_and_error_codes": {
+        "type": "object"
+      },
+      "ui_navigation_theme_and_filemaker_spec": {
+        "type": "object"
+      },
+      "accessibility_and_localization": {
+        "type": "object"
+      },
+      "release_and_change_governance": {
+        "type": "object"
+      },
+      "activation_commands": {
+        "type": "object"
+      },
+      "advanced_editing_suite": {
+        "type": "object"
+      },
+      "format_and_platform_matrix": {
+        "type": "object",
+        "minProperties": 1
+      },
+      "system_type": {
+        "type": "string"
+      },
+      "release_label": {
+        "type": "string"
+      },
+      "portable_chatgpt_output_contract": {
+        "type": "object"
+      },
+      "provider_intelligence": {
         "type": "object"
       }
     },
@@ -6015,7 +6123,7 @@
         "category": "Architecture completeness",
         "points_awarded": 10,
         "points_available": 10,
-        "evidence_basis": "All 102 top-level source sections retained and all declared required keys synchronized with schema.",
+        "evidence_basis": "All 114 top-level sections retained and all declared required keys synchronized with embedded schema.",
         "status": "PASS"
       },
       {
@@ -6050,7 +6158,7 @@
         "category": "VFX/BFX, audio and editing specification",
         "points_awarded": 10,
         "points_available": 10,
-        "evidence_basis": "Dedicated production pipelines, controls and quality gates present",
+        "evidence_basis": "Dedicated VFX/BFX pipelines plus expanded shot-level motion, true-3D, simulation, compositing, transitions, titles, captions, series and temporal-QC specifications.",
         "status": "PASS"
       },
       {
@@ -6077,7 +6185,7 @@
     ],
     "runtime_score": "NOT_RATED_UNTIL_EXECUTED",
     "end_to_end_release_status": "NOT_CERTIFIED",
-    "scoring_boundary": "100/100 applies only to the static checks executed and recorded in this exact build. It does not certify live provider integrations, host UI, media rendering, exports, database security, device compatibility or backup restore."
+    "scoring_boundary": "Static score applies only to the exact structural/schema/specification checks recorded in the current audit. It does not certify provider execution, rendered media, browser UI, database, devices or restore drills."
   },
   "production_modes": {
     "available_modes": [
@@ -9252,5 +9360,507 @@
       "responsive_browser_acceptance",
       "provider_integrations_tested_separately"
     ]
+  },
+  "advanced_motion_3d_transition_title_caption_series_director": {
+    "enabled": true,
+    "purpose": "Complete shot-level creative and technical production contract for motion design, true 3D effects, transitions, titles, captions, series and delivery. This is a specification and orchestration contract, not a renderer.",
+    "global_non_partial_rule": {
+      "required_deliverables": "Every applicable deliverable must be present, marked NOT_APPLICABLE with a reason, or BLOCKED with the exact dependency. No silent omission.",
+      "capability_truth": [
+        "PASS only after an actual supported operation and output inspection",
+        "PLAN_ONLY when instructions/prompts exist but no rendering operation ran",
+        "NOT_CONNECTED when provider/editor is not connected",
+        "NOT_SUPPORTED when the selected provider/editor cannot perform it",
+        "NOT_TESTED when no evidence has been collected"
+      ],
+      "no_false_claims": [
+        "Never claim true 3D from a flat 2D overlay",
+        "Never claim tracking, simulation, compositing, render, export or playback PASS without evidence",
+        "Never guarantee 4K, frame rate, codec, lip-sync or platform reach beyond verified capability"
+      ]
+    },
+    "motion_design_and_animation": {
+      "motion_language": [
+        "cinematic",
+        "documentary",
+        "broadcast",
+        "educational",
+        "social_short_form",
+        "product_showcase",
+        "kinetic_typography",
+        "UI_motion",
+        "character_performance"
+      ],
+      "animation_principles": [
+        "clear motivation",
+        "anticipation",
+        "staging",
+        "arcs",
+        "ease_in_out",
+        "follow_through",
+        "overlap",
+        "secondary_motion",
+        "weight_and_inertia",
+        "readable_silhouette",
+        "consistent_screen_direction",
+        "rhythmic_timing"
+      ],
+      "motion_controls": [
+        "position",
+        "rotation",
+        "scale",
+        "anchor_point",
+        "opacity",
+        "path_tangent",
+        "speed_curve",
+        "acceleration",
+        "deceleration",
+        "overshoot",
+        "settle",
+        "motion_blur",
+        "shutter_angle_or_equivalent",
+        "camera_parallax",
+        "depth_order",
+        "loop_behavior"
+      ],
+      "keyframe_contract": [
+        "property",
+        "timecode_or_frame",
+        "value",
+        "interpolation",
+        "incoming_tangent",
+        "outgoing_tangent",
+        "easing",
+        "motion_blur_state"
+      ],
+      "temporal_rules": [
+        "No unexplained popping, jitter, flicker, morphing or discontinuity",
+        "Keep subject anatomy, face, logo and text stable",
+        "Respect frame rate and duration; do not invent intermediate frames as captured evidence",
+        "Use optical flow/frame interpolation only when supported and inspect artifacts"
+      ],
+      "deliverables": [
+        "motion_style_guide",
+        "animation_curve_sheet",
+        "keyframe_timing_map",
+        "per_shot_motion_prompt",
+        "temporal_QC_report"
+      ]
+    },
+    "true_3d_and_spatial_effects": {
+      "scene_setup": [
+        "world_units_and_scale",
+        "coordinate_system",
+        "camera_projection",
+        "focal_length",
+        "sensor_gate",
+        "lens_distortion",
+        "camera_transform",
+        "object_transform",
+        "geometry_topology",
+        "UV_layout",
+        "PBR_material",
+        "texture_resolution",
+        "HDRI_or_area_lighting",
+        "GI_and_raytrace_capability",
+        "render_engine_and_version"
+      ],
+      "depth_and_composition": [
+        "depth_map_source_and_confidence",
+        "foreground_midground_background_layers",
+        "Z_order",
+        "occlusion_mattes",
+        "contact_points",
+        "parallax_amount",
+        "stereo_or_mono_output",
+        "safe_clearance_from_face_logo_and_captions"
+      ],
+      "simulation": [
+        "particles",
+        "rigid_body",
+        "soft_body",
+        "cloth",
+        "fluid",
+        "smoke",
+        "fog",
+        "dust",
+        "rain",
+        "snow",
+        "debris_when_safe_and_relevant",
+        "collision",
+        "forces",
+        "cache_version",
+        "deterministic_replay"
+      ],
+      "render_passes": [
+        "beauty",
+        "diffuse",
+        "specular",
+        "reflection",
+        "refraction",
+        "emission",
+        "shadow",
+        "ambient_occlusion",
+        "Z_depth",
+        "normal",
+        "motion_vector",
+        "cryptomatte_or_equivalent"
+      ],
+      "quality_checks": [
+        "scale_consistency",
+        "camera_solve_error",
+        "geometry_intersection",
+        "texture_swimming",
+        "shadow_direction",
+        "reflection_alignment",
+        "light_temperature",
+        "temporal_stability",
+        "render_noise",
+        "aliasing",
+        "banding",
+        "alpha_premultiplication"
+      ],
+      "fallback": "If true 3D tools are unavailable, supply a clearly labelled 2.5D/2D alternative and state the lost depth, parallax, lighting and occlusion properties."
+    },
+    "transitions_and_scene_bridges": {
+      "transition_families": [
+        "hard_cut",
+        "match_cut",
+        "action_cut",
+        "J_cut",
+        "L_cut",
+        "cross_dissolve",
+        "dip_to_black",
+        "dip_to_white",
+        "whip_pan",
+        "push_pull",
+        "zoom_transition",
+        "parallax_wipe",
+        "shape_morph",
+        "object_wipe",
+        "light_sweep",
+        "glitch_only_when_motivated",
+        "particle_reveal",
+        "3D_camera_flythrough",
+        "environment_morph",
+        "split_screen",
+        "graphic_wipe"
+      ],
+      "per_transition_fields": [
+        "transition_id",
+        "from_shot",
+        "to_shot",
+        "story_motivation",
+        "duration_frames",
+        "transition_in",
+        "transition_out",
+        "motion_direction",
+        "easing_curve",
+        "mask_or_matte",
+        "audio_bridge",
+        "continuity_anchor",
+        "capability_status",
+        "fallback"
+      ],
+      "rules": [
+        "Transitions must preserve screen direction, geography, dialogue continuity and audio continuity",
+        "Avoid template effects that distract from content",
+        "Check black/white frames, flash frames, duplicated frames, audio gaps and abrupt level changes",
+        "Use handles and frame-accurate overlap; if editor cannot provide it, mark PLAN_ONLY"
+      ]
+    },
+    "titles_graphics_and_typography": {
+      "title_types": [
+        "main_title",
+        "episode_title",
+        "section_card",
+        "lower_third",
+        "speaker_nameplate",
+        "location_date_card",
+        "chapter_marker",
+        "callout",
+        "statistic_card",
+        "end_card",
+        "CTA_card",
+        "thumbnail_title"
+      ],
+      "design_controls": [
+        "hierarchy",
+        "font_family_and_weight",
+        "Devanagari_shaping_and_matras",
+        "tracking",
+        "leading",
+        "contrast",
+        "background_plate",
+        "outline_or_shadow",
+        "safe_margins",
+        "brand_palette",
+        "logo_clear_space",
+        "alignment",
+        "responsive_scaling",
+        "animation_in_hold_out"
+      ],
+      "animation_presets": [
+        "fade",
+        "rise",
+        "slide",
+        "scale_pop",
+        "type_on",
+        "word_by_word",
+        "kinetic_phrase",
+        "3D_extrusion_if_supported",
+        "world_space_track_if_supported",
+        "parallax_depth_reveal"
+      ],
+      "text_integrity": [
+        "Preserve exact user-approved wording, names, dates, numbers and spelling",
+        "Do not rely on generative video text for exact Hindi copy; add/verify text in editing/layout stage",
+        "Proofread Devanagari matras, conjuncts, punctuation and line breaks"
+      ],
+      "deliverables": [
+        "title_copy",
+        "title_safe_area_layout",
+        "font_and_style_spec",
+        "animation_timing",
+        "lower_third_pack",
+        "end_card_copy",
+        "thumbnail_title_variants_if_requested"
+      ]
+    },
+    "captions_subtitles_and_accessibility": {
+      "source_of_truth": "Final approved audio/transcript; never invent words or silently paraphrase",
+      "formats": [
+        "SRT",
+        "VTT",
+        "ASS_or_editor_native_when_supported",
+        "burned_in_caption_render"
+      ],
+      "timing_levels": [
+        "phrase_level_default",
+        "word_level_when_supported_and_verified"
+      ],
+      "fields": [
+        "speaker",
+        "text_verbatim",
+        "start_time",
+        "end_time",
+        "language",
+        "confidence",
+        "review_status",
+        "line_breaks",
+        "style_id"
+      ],
+      "quality_checks": [
+        "Hindi spelling and matras",
+        "English spelling",
+        "speaker attribution",
+        "timecode sync",
+        "reading_speed",
+        "line_length",
+        "contrast",
+        "safe_area",
+        "overlap with UI/logo/face",
+        "punctuation",
+        "hearing_accessibility"
+      ],
+      "style_controls": [
+        "font",
+        "weight",
+        "size",
+        "fill",
+        "outline",
+        "shadow",
+        "background_box",
+        "position",
+        "max_lines",
+        "highlight_color",
+        "speaker_color",
+        "animation"
+      ],
+      "accessibility": [
+        "Provide captions for speech and meaningful sound cues where requested",
+        "Do not use color alone to encode meaning",
+        "Keep captions readable on mobile and landscape screens",
+        "Respect platform-specific safe zones after checking current specs"
+      ],
+      "deliverables": [
+        "clean_transcript",
+        "reviewed_caption_text",
+        "SRT_if_requested",
+        "VTT_if_requested",
+        "caption_style_sheet",
+        "sync_QC"
+      ]
+    },
+    "series_and_episode_production": {
+      "series_bible": [
+        "series_title",
+        "logline",
+        "promise",
+        "genre_and_tone",
+        "audience",
+        "platforms",
+        "season_arc",
+        "episode_count_or_open_ended_rule",
+        "episode_duration",
+        "clip_duration",
+        "presenter_and_character_bible",
+        "voice_bible",
+        "visual_bible",
+        "music_and_sound_identity",
+        "title_and_caption_style",
+        "logo_and_brand_rules",
+        "research_and_source_policy",
+        "continuity_rules",
+        "rights_and_consent"
+      ],
+      "episode_package": [
+        "episode_number",
+        "episode_title",
+        "one_sentence_promise",
+        "hook",
+        "recap_if_needed",
+        "research_cutoff",
+        "verified_fact_ledger",
+        "script",
+        "scene_list",
+        "storyboard",
+        "shot_list",
+        "per_clip_prompt",
+        "start_frame",
+        "end_frame",
+        "VFX_cue_sheet",
+        "BFX_cue_sheet",
+        "transition_map",
+        "audio_plan",
+        "caption_files",
+        "thumbnail_and_cover",
+        "description_and_metadata",
+        "next_episode_teaser",
+        "QC_and_approval"
+      ],
+      "clip_continuity": [
+        "exact dialogue join",
+        "wardrobe and prop continuity",
+        "presenter identity and voice continuity",
+        "lighting and camera continuity",
+        "music and ambience bridge",
+        "no repeated or missing line",
+        "consistent timeline and factual state"
+      ],
+      "state_management": [
+        "Save last approved series bible, episode, clip, prompt and revision",
+        "Resume only from confirmed checkpoint",
+        "Do not overwrite approved dialogue or facts without revision note",
+        "If prior state is unavailable, ask one focused question rather than inventing continuity"
+      ],
+      "release_gate": "Every requested episode/clip artifact is delivered or explicitly blocked/not applicable; render status remains separate from prompt/package status."
+    },
+    "social_titles_descriptions_and_metadata": {
+      "platform_fields": [
+        "platform",
+        "title",
+        "hook",
+        "caption",
+        "description",
+        "hashtags",
+        "keywords_or_tags",
+        "thumbnail_text",
+        "CTA",
+        "AI_disclosure_if_required",
+        "source_and_rights_note",
+        "publication_date_if_requested"
+      ],
+      "rules": [
+        "Match copy to the actual current asset and selected brand profile",
+        "Do not promise reach, virality, monetization or approval",
+        "Check current official platform rules before claiming compliance",
+        "Preserve profile-specific hashtag and brand rules",
+        "Separate title, thumbnail text, caption and long description; do not merge them by default"
+      ]
+    },
+    "audio_music_and_sound_design": {
+      "layers": [
+        "dialogue_or_narration",
+        "room_tone",
+        "ambience",
+        "foley",
+        "spot_SFX",
+        "transition_SFX",
+        "music",
+        "voiceover_doubles_when_approved"
+      ],
+      "mix_controls": [
+        "clip_gain",
+        "EQ",
+        "compression",
+        "de_esser",
+        "noise_reduction",
+        "reverb",
+        "ducking",
+        "limiting",
+        "loudness_target_by_destination",
+        "true_peak",
+        "stereo_mono_compatibility"
+      ],
+      "checks": [
+        "clipping",
+        "distortion",
+        "noise",
+        "phase",
+        "dialogue_intelligibility",
+        "music_masking",
+        "sync_drift",
+        "fade_continuity",
+        "rights_and_licensing"
+      ],
+      "voice_safety": "Use authorized voice recordings or approved synthetic voices; do not clone a person's voice without explicit authorization."
+    },
+    "delivery_and_regression_acceptance": {
+      "required_outputs": [
+        "creative_brief",
+        "script",
+        "storyboard",
+        "shot_list",
+        "image_prompts_if_needed",
+        "video_prompts_per_clip",
+        "motion_and_3D_plan",
+        "VFX_BFX_cue_sheet",
+        "transition_map",
+        "title_graphics_pack",
+        "captions_and_transcript",
+        "audio_mix_plan",
+        "social_metadata",
+        "asset_rights_manifest",
+        "QC_report",
+        "export_manifest"
+      ],
+      "per_item_status": [
+        "PASS",
+        "PLAN_ONLY",
+        "NOT_CONNECTED",
+        "NOT_SUPPORTED",
+        "NOT_TESTED",
+        "BLOCKED",
+        "NOT_APPLICABLE"
+      ],
+      "tests": [
+        "JSON_parse_and_duplicate_key_check",
+        "schema_validation",
+        "all_engine_and_lock_preservation",
+        "all_module_references_resolve",
+        "prompt_character_limit",
+        "caption_timecode_validation",
+        "series_continuity_join_test",
+        "transition_black_frame_and_audio_gap_test",
+        "motion_temporal_stability_test",
+        "3D_camera_scale_and_occlusion_test",
+        "VFX_BFX_capability_truth_test",
+        "asset_rights_and_consent_test",
+        "export_file_open_decode_playback_test",
+        "backup_restore_drill"
+      ],
+      "no_partial_release": "A package cannot be called fully complete while any applicable required output is missing. Runtime checks must remain NOT_TESTED until real execution evidence is attached."
+    }
   }
 }
